@@ -7,13 +7,14 @@ body {
 }
 #header {
 	background-color: transparent;
-	color: purple;
-	font-family:Apple Chancery;
+	color: teal;
+	font-family: cursive;
 
 }
 #mission {
 	background-color: transparent;
-	color: purple;
+	color: teal;
+	font-family: cursive;
 }
 #quiz_result {
 	color: purple;
