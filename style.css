@@ -17,5 +17,12 @@ body {
 	font-family: cursive;
 }
 #quiz_result {
-	color: purple;
+	color: teal;
+	font-family: cursive;
+}
+#quiz {
+	color: teal;
+	font-family: cursive;
+	background-color: white;
+	margin-left: 380px
 }
