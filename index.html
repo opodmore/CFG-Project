@@ -4,8 +4,7 @@
 <head>
 	<title>Title of Our Website</title>
 
-	<link rel="stylesheet" href="style.css">
-
+	
 	<script
 	src="https://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -29,4 +28,19 @@
 		<p> Let us help you choose your next vacation by taking our short quiz about your recent dreams!</p>
 	</div>
 </div>
-<button class='btn'  id='calculate'>Start the quiz!</button>
+<button class='btn'  id='quiz'>Start the quiz!</button>
+
+<div id='Question_1'></div>
+
+<form>
+  <input type="radio" name="result_1" value="A"> <div id='Answers_1a'></div>
+  <input type="radio" name="result_1" value="B">  <div id='Answers_1b'></div>
+  <input type="radio" name="result_1" value="C">  <div id='Answers_1c'></div>
+</form>
+
+<br>
+<button id='Next' class='btn' onclick="NextQuestion()"></button>
+<button id='Next2' class='btn' onclick="NextQuestion2()"></button>
+<button id='Submit' class='btn'></button>
+
+
