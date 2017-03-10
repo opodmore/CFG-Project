@@ -29,21 +29,25 @@ body {
 #Question_1 {
 	color: teal;
 	font-family: cursive;
+	font-size: 25px;
 	margin-top: 30px;
 	margin-left: 120px;
 }
 #Answers_1a {
 	color: teal;
+	font-size: 18px;
 	font-family: cursive;
 	margin-left: 120px;
 }
 #Answers_1b {
 	color: teal;
+font-size: 18px;
 	font-family: cursive;
 	margin-left: 120px;
 }
 #Answers_1c {
 	color: teal;
+	font-size: 18px;
 	font-family: cursive;
 	margin-left: 120px;
 }
