@@ -78,30 +78,53 @@ function SubmitQuiz () {
 	var total_result = window.result1+window.result2+window.result3
 	console.log(total_result)  
 
-if (total_result.match(/\A{3}/)) { //answer is all As
+
+
+if ((total_result.match(/\A/g) || []).length==3) { //answer is all As
 console.log("worked three As") 
 $("#quiz_result").html("Your dream vacation location is Las Vegas!");
 }
-if (total_result.match(/\A{2}/)) { //answer is majority As
+
+if ((total_result.match(/\A/g) || []).length==2) { //answer is majority As
 console.log("worked two As") 
 $("#quiz_result").html("Your dream vacation is the Maldives - you need to relax a bit!");
 }
-if (total_result.match(/\[B]{3}/)) { //answer is all Bs
+
+if ((total_result.match(/\B/g) || []).length==3) { //answer is all Bs
 $("#quiz_result").html("Your dream vacation location is returning to your last vacation! You have more to discover there!");
-console.log("worked three Bs") 
+console.log("worked three Bs")
 }
-if (total_result.match(/\[B]{2}/)) { //answer is majority Bs
+
+if ((total_result.match(/\B/g) || []).length==2) { //answer is majority Bs
 console.log("worked two Bs") 
 $("#quiz_result").html("Your dream vacation is a backpacking trip in Vietnam - go meet some new people!");
 }
-if (total_result.match(/\C{3}/)) { //answer is all Cs
+
+
+if ((total_result.match(/\C/g) || []).length==3) { //answer is all Cs
+console.log("worked three Cs") 
 $("#quiz_result").html("Your dream vacation is a family retreat in the Alps!"); 
 }
-if (total_result.match(/\C{2}/)) { //answer is majority Cs
+
+if ((total_result.match(/\C/g) || []).length==2) { //answer is majority Cs
 console.log("worked two Cs") 
 $("#quiz_result").html("Your dream vacation is DisneyWorld!"); 
 }
-if (total_result==("ABC")||("ACB")||("BCA")||("BAC")||("CBA")||("CAB")) { //answer is all different
+
+//if ((total_result.match(/\B/g) || []).length==3) { //answer is all Bs
+//$("#quiz_result").html("Your dream vacation location is returning to your last vacation! You have more to discover there!");
+//console.log("worked three Bs")
+//}
+
+
+//if (total_result.match(/\[B]{2,2}/)) { //answer is majority Bs
+//console.log("worked two Bs") 
+//$("#quiz_result").html("Your dream vacation is a backpacking trip in Vietnam - go meet some new people!");
+//}
+
+
+
+if (total_result==(("ABC")||("ACB")||("BCA")||("BAC")||("CBA")||("CAB"))) { //answer is all different
 console.log("worked one of each") 
 $("#quiz_result").html("Your dream vacation involves finding yourself, go take a GAP year in Australia!"); 
 }
