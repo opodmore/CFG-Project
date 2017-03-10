@@ -1,3 +1,20 @@
 body {
   background-image: url("abroad-travel-tips.jpg");
 }
+
+#result {
+	font-size: 26px
+}
+#header {
+	background-color: transparent;
+	color: purple;
+	font-family:Apple Chancery;
+
+}
+#mission {
+	background-color: transparent;
+	color: purple;
+}
+#quiz_result {
+	color: purple;
+}
