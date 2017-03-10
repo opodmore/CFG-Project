@@ -24,5 +24,31 @@ body {
 	color: teal;
 	font-family: cursive;
 	background-color: white;
-	margin-left: 380px
+	margin-left: 380px;
+}
+#Question_1 {
+	color: teal;
+	font-family: cursive;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+#Answers_1a {
+	color: teal;
+	font-family: cursive;
+	margin-left: 120px;
+}
+#Answers_1b {
+	color: teal;
+	font-family: cursive;
+	margin-left: 120px;
+}
+#Answers_1c {
+	color: teal;
+	font-family: cursive;
+	margin-left: 120px;
+}
+.btn {
+	color: teal;
+	font-family: cursive;
+	background-color: white;
 }
