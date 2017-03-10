@@ -78,12 +78,9 @@ function SubmitQuiz () {
 	var total_result = window.result1+window.result2+window.result3
 	console.log(total_result)  
 
-//if (total_result=="AAA") {
-//$("#quiz_result").html("Your dream vacation location is ___");
-//}
-
 if (total_result.match(/\A{3}/)) { //answer is all As
 console.log("worked three As") 
+$("#quiz_result").html("Your dream vacation location is ____.");
 }
 if (total_result.match(/\A{2}/)) { //answer is majority As
 console.log("worked two As") 
@@ -100,7 +97,7 @@ console.log("worked three Cs")
 if (total_result.match(/\C{2}/)) { //answer is majority Cs
 console.log("worked two Cs") 
 }
-if (total_result==(("ABC")|("ACB")|("BAC")|("BCA")|("CAB")|("CBA"))) { //answer is all different
+if (total_result==("ABC")||("ACB")||("BCA")||("BAC")||("CBA")||("CAB")) { //answer is all different
 console.log("worked one of each") 
 }
 
