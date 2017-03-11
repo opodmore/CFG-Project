@@ -18,6 +18,13 @@ AnswerC:"Something totally unrelated to my everday life",
 
 function start() {
   // Print "Hello, world!" to the developer console.
+  $("#answer_a").hide();
+   $("#answer_b").hide();
+    $("#answer_c").hide();
+     $("#Next").hide();
+      $("#Next2").hide();
+       $("#Submit").hide();
+   //$("#about-content").hide();
   console.log("Hello, world!");
   $("#quiz").click(quiz);
   $("#Next").click(NextQuestion);
@@ -29,17 +36,24 @@ function start() {
 
 function quiz () {
 
-
+$("#quiz_result").html('');
+	 $("#answer_a").show();
+   $("#answer_b").show();
+    $("#answer_c").show();
+     $("#Next").show();
 	 $("#Question_1").html(questions[0].Question);
 	  $("#Answers_1a").html(questions[0].AnswerA);
 	  $("#Answers_1b").html(questions[0].AnswerB);
 	  $("#Answers_1c").html(questions[0].AnswerC);
 	  $("#Next").html("Next Question");
+	  $("#quiz").html("Start the quiz!")
 
 }
 
 function NextQuestion () {
 	window.result1 = $('input[name=result_1]:checked').val()
+	  $("#Next").hide();
+	   $("#Next2").show();
 	 $("#Question_1").html('');
 	 $("#Answers_1a").html('');
 	  $("#Answers_1b").html('');
@@ -55,6 +69,8 @@ function NextQuestion () {
 
 function NextQuestion2 () {
 	window.result2 = $('input[name=result_1]:checked').val()
+	 $("#Next2").hide();
+	   $("#Submit").show()
 	 $("#Question_1").html('');
 	 $("#Answers_1a").html('');
 	  $("#Answers_1b").html('');
@@ -70,6 +86,10 @@ function NextQuestion2 () {
 }
 function SubmitQuiz () {
 	window.result3 = $('input[name=result_1]:checked').val()
+	 $("#Submit").hide()
+	 $("#answer_a").hide();
+   $("#answer_b").hide();
+    $("#answer_c").hide();
 	 $("#Question_1").html('');
 	 $("#Answers_1a").html('');
 	  $("#Answers_1b").html('');
@@ -111,24 +131,17 @@ console.log("worked two Cs")
 $("#quiz_result").html("Your dream vacation is DisneyWorld!"); 
 }
 
-//if ((total_result.match(/\B/g) || []).length==3) { //answer is all Bs
-//$("#quiz_result").html("Your dream vacation location is returning to your last vacation! You have more to discover there!");
-//console.log("worked three Bs")
-//}
-
-
-//if (total_result.match(/\[B]{2,2}/)) { //answer is majority Bs
-//console.log("worked two Bs") 
-//$("#quiz_result").html("Your dream vacation is a backpacking trip in Vietnam - go meet some new people!");
-//}
-
-
-
-if (total_result==(("ABC")||("ACB")||("BCA")||("BAC")||("CBA")||("CAB"))) { //answer is all different
+if (((total_result.match(/A/g) || []).length==1)&&((total_result.match(/B/g) || []).length==1) &&((total_result.match(/C/g) || []).length==1)) { //answer is majority Cs
 console.log("worked one of each") 
-$("#quiz_result").html("Your dream vacation involves finding yourself, go take a GAP year in Australia!"); 
+$("#quiz_result").html("Your dream vacation involves finding yourself, go take a GAP year in Australia!");  
 }
 
+//if (total_result==(("ABC")||("ACB")||("BCA")||("BAC")||("CBA")||("CAB"))) { //answer is all different
+//console.log("worked one of each") 
+//$("#quiz_result").html("Your dream vacation involves finding yourself, go take a GAP year in Australia!"); 
+//}
+
+$("#quiz").html("Take the quiz again!");
 
 }
 

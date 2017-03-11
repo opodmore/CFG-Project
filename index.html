@@ -20,24 +20,27 @@
 
 
 </head>
+<body>
 <div class='jumbotron' id='header'>
-	<div class='container'>
+	<div class='container-fluid'>
 		<h1>Dream Vacation Finder</h1>
 	</div>
 </div>
 <div class='jumbotron' id='mission'>
-	<div class='container'>
+	<div class='container-fluid'>
 		<p> Let us help you choose your next vacation by taking our short quiz about your recent dreams!</p>
 	</div>
 </div>
 <button class='btn'  id='quiz'>Start the quiz!</button>
 
+<div class='jumbotron' id='quiz_info'>
+<div class='container-fluid'>
 <div id='Question_1'></div>
 
 <form>
-  <input type="radio" name="result_1" value="A"> <div id='Answers_1a'></div>
-  <input type="radio" name="result_1" value="B">  <div id='Answers_1b'></div>
-  <input type="radio" name="result_1" value="C">  <div id='Answers_1c'></div>
+  <input type="radio" name="result_1" value="A" id ='answer_a'> <div id='Answers_1a'></div>
+  <input type="radio" name="result_1" value="B" id='answer_b'>  <div id='Answers_1b'></div>
+  <input type="radio" name="result_1" value="C" id='answer_c'>  <div id='Answers_1c'></div>
 </form>
 
 <br>
@@ -46,5 +49,8 @@
 <button id='Submit' class='btn'></button>
 
 <div id='quiz_result'></div>
-
+</div>
+</div>
+</body>
+</html>
 

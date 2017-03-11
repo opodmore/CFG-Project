@@ -2,9 +2,6 @@ body {
   background-image: url("abroad-travel-tips.jpg");
 }
 
-#result {
-	font-size: 26px
-}
 #header {
 	background-color: transparent;
 	color: teal;
@@ -16,9 +13,13 @@ body {
 	color: teal;
 	font-family: cursive;
 }
+#quiz_info {
+	background-color: transparent;
+}
 #quiz_result {
 	color: teal;
 	font-family: cursive;
+	font-size: 20px;
 }
 #quiz {
 	color: teal;
@@ -31,6 +32,7 @@ body {
 	font-family: cursive;
 	margin-top: 30px;
 	margin-left: 120px;
+	font-size: 20px;
 }
 #Answers_1a {
 	color: teal;
