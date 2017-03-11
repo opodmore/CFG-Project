@@ -30,22 +30,26 @@ body {
 #Question_1 {
 	color: teal;
 	font-family: cursive;
+	font-size: 25px;
 	margin-top: 30px;
 	margin-left: 120px;
 	font-size: 20px;
 }
 #Answers_1a {
 	color: teal;
+	font-size: 18px;
 	font-family: cursive;
 	margin-left: 120px;
 }
 #Answers_1b {
 	color: teal;
+font-size: 18px;
 	font-family: cursive;
 	margin-left: 120px;
 }
 #Answers_1c {
 	color: teal;
+	font-size: 18px;
 	font-family: cursive;
 	margin-left: 120px;
 }
@@ -53,4 +57,12 @@ body {
 	color: teal;
 	font-family: cursive;
 	background-color: white;
+	margin-left: 120px;
+}
+#quiz_result {
+	color: teal;
+	font-family: cursive;
+	font-size: 25px;
+	margin-top: 30px;
+	margin-left: 120px
 }
