@@ -5,14 +5,14 @@ body {
 #header {
 	background-color: transparent;
 	color: white;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	text-align:center;
 
 }
 #mission {
 	background-color: transparent;
 	color: teal;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	text-align:center;
 }
 #quiz_info {
@@ -21,22 +21,22 @@ body {
 #button {
 	background-color: transparent;
 	color: teal;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	text-align:center;
 }
 #quiz_result {
 	color: teal;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	font-size: 20px;
 }
 #quiz {
 	color: teal;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	background-color: white;
 }
 #Question_1 {
 	color: teal;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	font-size: 25px;
 	margin-top: 30px;
 	margin-left: 280px;
@@ -45,33 +45,34 @@ body {
 #Answers_1a {
 	color: teal;
 	font-size: 18px;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	display: inline-block;
 }
 #Answers_1b {
 	color: teal;
 font-size: 18px;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	display: inline-block;
 }
 #Answers_1c {
 	color: teal;
 	font-size: 18px;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	display: inline-block;
 }
 .btn {
 	color: teal;
-	font-family: cursive;
+	font-family: 'Griffy', cursive;
 	background-color: white;
 	text-align:center;
 }
 #quiz_result {
-	color: teal;
-	font-family: cursive;
-	font-size: 25px;
+	color: navy;
+	font-family: 'Griffy', cursive;
+	font-size: 35px;
 	margin-top: 30px;
 	text-align:center;
+	font-weight:bold;
 }
 #Next {
 	margin-left: 320px;
