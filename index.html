@@ -2,9 +2,9 @@
 
 <html>
 <head>
-	<title>Dream Vacation Finder</title>
+	<title>Dream Vacationator</title>
 	
-	 <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
 
 	
 	<script
@@ -21,37 +21,41 @@
 
 </head>
 <body>
-<div class='jumbotron' id='header'>
-	<div class='container-fluid'>
-		<h1>Dream Vacation Finder</h1>
+	<div class='jumbotron' id='header'>
+		<div class='container-fluid'>
+			<h1>Dream Vacationator</h1>
+		</div>
 	</div>
-</div>
-<div class='jumbotron' id='mission'>
-	<div class='container-fluid'>
-		<p> Let us help you choose your next vacation by taking our short quiz about your recent dreams!</p>
+	<div class='jumbotron' id='mission'>
+		<div class='container-fluid'>
+			<p> Let us help you choose your next vacation by taking our short quiz about your recent dreams!</p>
+		</div>
 	</div>
-</div>
-<button class='btn'  id='quiz'>Start the quiz!</button>
+	<div class='jumbotron' id ='button'>
+		<div class='container-fluid'>
+			<button class='btn'  id='quiz'>Start the quiz!</button>
+		</div>
+	</div>
 
-<div class='jumbotron' id='quiz_info'>
-<div class='container-fluid'>
-<div id='Question_1'></div>
+	<div class='jumbotron' id='quiz_info'>
+		<div class='container-fluid'>
+			<div id='Question_1'></div>
 
-<form>
-  <input type="radio" name="result_1" value="A" id ='answer_a'> <div id='Answers_1a'></div>
-  <input type="radio" name="result_1" value="B" id='answer_b'>  <div id='Answers_1b'></div>
-  <input type="radio" name="result_1" value="C" id='answer_c'>  <div id='Answers_1c'></div>
-</form>
+			<form>
+				<div id='input1'> <input type="radio" name="result_1" value="A" id ='answer_a'> <div id='Answers_1a'></div> </div>
+				<div id ='input2'> <input type="radio" name="result_1" value="B" id='answer_b'>  <div id='Answers_1b'></div> </div>
+				<div id='input3'> <input type="radio" name="result_1" value="C" id='answer_c'>  <div id='Answers_1c'></div> </div>
+			</form>
 
-<br>
-<button id='Next' class='btn'></button>
-<button id='Next2' class='btn'></button>
-<button id='Submit' class='btn'></button>
+			<br>
+			<button id='Next' class='btn'></button>
+			<button id='Next2' class='btn'></button>
+			<button id='Submit' class='btn'></button>
 
-<div id='quiz_result'></div>
+			<div id='quiz_result'></div>
 
-</div>
-</div>
+		</div>
+	</div>
 </body>
 </html>
 

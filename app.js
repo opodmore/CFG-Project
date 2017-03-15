@@ -36,6 +36,7 @@ function start() {
 
 function quiz () {
 
+$("#quiz").hide();
 $("#quiz_result").html('');
 	 $("#answer_a").show();
    $("#answer_b").show();
@@ -136,12 +137,9 @@ console.log("worked one of each")
 $("#quiz_result").html("Your dream vacation involves finding yourself, go take a GAP year in Australia!");  
 }
 
-//if (total_result==(("ABC")||("ACB")||("BCA")||("BAC")||("CBA")||("CAB"))) { //answer is all different
-//console.log("worked one of each") 
-//$("#quiz_result").html("Your dream vacation involves finding yourself, go take a GAP year in Australia!"); 
-//}
 
 $("#quiz").html("Take the quiz again!");
+ $("#quiz").show()
 
 }
 

@@ -4,17 +4,25 @@ body {
 
 #header {
 	background-color: transparent;
-	color: teal;
+	color: white;
 	font-family: cursive;
+	text-align:center;
 
 }
 #mission {
 	background-color: transparent;
 	color: teal;
 	font-family: cursive;
+	text-align:center;
 }
 #quiz_info {
 	background-color: transparent;
+}
+#button {
+	background-color: transparent;
+	color: teal;
+	font-family: cursive;
+	text-align:center;
 }
 #quiz_result {
 	color: teal;
@@ -25,44 +33,61 @@ body {
 	color: teal;
 	font-family: cursive;
 	background-color: white;
-	margin-left: 380px;
 }
 #Question_1 {
 	color: teal;
 	font-family: cursive;
 	font-size: 25px;
 	margin-top: 30px;
-	margin-left: 120px;
+	margin-left: 280px;
 	font-size: 20px;
 }
 #Answers_1a {
 	color: teal;
 	font-size: 18px;
 	font-family: cursive;
-	margin-left: 120px;
+	display: inline-block;
 }
 #Answers_1b {
 	color: teal;
 font-size: 18px;
 	font-family: cursive;
-	margin-left: 120px;
+	display: inline-block;
 }
 #Answers_1c {
 	color: teal;
 	font-size: 18px;
 	font-family: cursive;
-	margin-left: 120px;
+	display: inline-block;
 }
 .btn {
 	color: teal;
 	font-family: cursive;
 	background-color: white;
-	margin-left: 120px;
+	text-align:center;
 }
 #quiz_result {
 	color: teal;
 	font-family: cursive;
 	font-size: 25px;
 	margin-top: 30px;
-	margin-left: 120px
+	text-align:center;
 }
+#Next {
+	margin-left: 320px;
+} 
+#Next2 {
+	margin-left: 320px;
+} 
+#Submit {
+	margin-left: 320px;
+} 
+#answer_a {
+	margin-left: 280px;
+} 
+#answer_b {
+	margin-left: 280px;
+} 
+#answer_c {
+	margin-left: 280px;
+} 
